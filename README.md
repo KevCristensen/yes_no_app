@@ -1,16 +1,27 @@
-# yes_no_app
+# Yes/No/Maybe App
 
-A new Flutter project.
+Una aplicación Flutter que permite a los usuarios chatear con un bot que responde únicamente con "Sí", "No" y "Quizás", mostrando un texto y un gif asociado a la respuesta.
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- Enviar mensajes al bot
+- Recibir respuestas en forma de "Sí", "No" y "Quizás"
+- Respuestas acompañadas de texto y gifs animados
 
-A few resources to get you started if this is your first Flutter project:
+## Capturas de Pantalla
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Mensaje | Respuesta "Sí" | Respuesta "No" | Respuesta "Quizás" |
+|---------|-----------------|----------------|--------------------|
+| ![Mensaje](screenshots/mensaje.png) | ![Sí](screenshots/si.png) | ![No](screenshots/no.png) | ![Quizás](screenshots/quizas.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalación
+
+### Requisitos Previos
+
+- [Flutter](https://flutter.dev/docs/get-started/install) (versión 2.0 o superior)
+
+### Clonar el Repositorio
+
+```bash
+git clone https://github.com/KevCristensen/yes_no_app.git
+cd yes_non_app
